@@ -1,0 +1,22 @@
+#sec1p {
+    display: flex;
+    margin: 1em;
+    color: blue;
+}
+
+#sec1p div{
+    padding-right: 5em;
+}
+
+#op{
+    display: flex;
+    
+}
+#op img{
+    margin: 2rem;
+}
+#mainp{
+    /* border: 1px solid grey; */
+    height:36rem;
+    width:40rem;
+}

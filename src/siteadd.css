@@ -1,0 +1,33 @@
+#top ,#bottom #sec1,#sec2,#sec3,#sec4{
+    display: flex;
+    justify-content: space-between;
+    color: blue;
+}
+/* input {
+    height: 25px;
+    
+} */
+#main{
+    margin-top: 0.5em;
+    padding-top: 0em;
+    padding-bottom: 8em;
+    padding-left: 2em;
+    padding-right: 2em;
+    /* border: 1px solid grey; */
+    width:50em;
+}
+#next{
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    height:40px;
+    width: 100px;
+    border: 0ch;
+
+}
+#nxt{
+    
+    display: flex;
+    justify-content: flex-end;
+}
+
