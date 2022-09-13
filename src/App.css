@@ -3,7 +3,21 @@
   /* border: 3px solid grey; */
   height: 100vh;
   width: 100vw;
-  padding-left:15em;
+  /* padding-left:15em; */
+ }
+ #list{
+    border: 1px solid greenyellow;
+    background-color: blue;
+    padding-right: 2em;
+ }
+ #list li{
+    /* border: 1px solid greenyellow;  */
+    padding-top: 1em;
+   
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    color: whitesmoke;
+   
  }
  #inside-left{
      display: flex;

@@ -31,7 +31,9 @@ code {
   width: 3em;
 
 }
-
+#nav{
+  padding: 10px;
+}
 .layout
 {
   height: 3rem;
