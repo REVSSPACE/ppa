@@ -7,24 +7,27 @@ import SiteAddress from './siteadd';
 
 function Toptab2()
 {
-    const ApplicantClick = () => {
+    const siteDetails = () => {
         ReactDOM.render(<ApplicantDetails />,document.getElementById("display"));
          
     }
         
-      const SiteClick = () => {
+      const Approval = () => {
         ReactDOM.render(<SiteAddress />,document.getElementById("display"));
      }
-     const ProfClick = () => {
+     const dwg = () => {
+        ReactDOM.render(<Professional />,document.getElementById("display"));
+     }
+     const others = () => {
         ReactDOM.render(<Professional />,document.getElementById("display"));
      }
      
     return(
         <>
-        <button id="ut1" onClick={ApplicantClick}>Site Details</button>
-        <button id="ut2" onClick={SiteClick} >Approval Details </button>
-        <button id="ut3" onClick={ProfClick} >Drawing</button>
-        <button id="ut3" onClick={ProfClick} >Other Details</button>
+        <button id="ut1" onClick={siteDetails}>Site Details</button>
+        <button id="ut2" onClick={Approval} >Approval Details </button>
+        <button id="ut3" onClick={dwg} >Drawing</button>
+        <button id="ut3" onClick={others} >Other Details</button>
         </>
     );
 
