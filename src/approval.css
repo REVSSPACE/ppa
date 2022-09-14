@@ -12,11 +12,7 @@
 #part3 >div{
     padding-right: 7em;
 }
-#Asec2 {
-    /* display: flex; */
 
-    /* border: 1px solid red; */
-}
 .Ainner{
     padding: 5px;
     display: flex;
