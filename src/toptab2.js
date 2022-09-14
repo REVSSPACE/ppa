@@ -1,10 +1,10 @@
 import React from 'react'
-import Professional from './prof';
 import ReactDOM from 'react-dom'
-import SiteAddress from './siteadd';
-// import './toptab2.css';
 import SiteDetails from './sitedetails';
 import ApprovalDetails from './approval';
+import Dwg from './dwg';
+import Otherdetails from './other';
+
 
 function Toptab2()
 {
@@ -17,10 +17,10 @@ function Toptab2()
         ReactDOM.render(<ApprovalDetails />,document.getElementById("display"));
      }
      const dwg = () => {
-        ReactDOM.render(<Professional />,document.getElementById("display"));
+        ReactDOM.render(<Dwg />,document.getElementById("display"));
      }
      const others = () => {
-        ReactDOM.render(<Professional />,document.getElementById("display"));
+        ReactDOM.render(<Otherdetails />,document.getElementById("display"));
      }
      
     return(

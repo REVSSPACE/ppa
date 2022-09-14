@@ -27,7 +27,7 @@ export default function ApprovalDetails()
                             <input type="text" />
                         </div>
                 </div>
-                <div id="part2">
+                <div id="Apart2">
                         <div>
                             <label>Submission fees in Rs.</label><br />
                             <input type="text" />
@@ -83,17 +83,61 @@ export default function ApprovalDetails()
                             <input type="text" />
                     </div>
                 </div>
-                <div>
+                <div style={{paddingLeft:"5px"}}>
                             <label>Status of Abutting Road</label><br />
                             <input type="text" />
                     </div>
             </div>
-            <div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
+            <h4>Surrounding Details</h4>
+            <div id="dir">
+                <div class="direction">
+                    <div>
+                        <label>North</label><br />
+                        <input type="text" />
+                    </div>
+                    <div>
+                        <label>South</label><br />
+                        <input type="text" />
+                    </div>
+                </div>
+                <div class="direction">
+                    <div>
+                        <label>East</label><br />
+                        <input type="text" />
+                    </div>
+                    <div>
+                        <label>West</label><br />
+                        <input type="text" />
+                    </div>
+                </div>
+                </div>
+            <h4>Width of Access to Road (if any)</h4>    
+                <div id="dir2">
+                <div class="direction">
+                    <div>
+                        <label>North</label><br />
+                        <input type="text" />
+                    </div>
+                    <div>
+                        <label>South</label><br />
+                        <input type="text" />
+                    </div>
+                </div>
+                <div class="direction">
+                    <div>
+                        <label>East</label><br />
+                        <input type="text" />
+                    </div>
+                    <div>
+                        <label>West</label><br />
+                        <input type="text" />
+                    </div>
+                </div>   
+                <div id="nxt" style={{paddingTop:"1em"}}>
+                <input  id="next" type="button" value="Save & Next" />
+                </div>
             </div>
+
         </>
     );
 }

@@ -3,30 +3,33 @@
     width: 50vw;
    
 }
-#part1 div{
-    padding-right: 4em;
-    /* padding-left: 4em; */
-}
+
 #part2 {
     display: flex;
     justify-content: space-between;
-    
-    /* width: 50vw; */
+  
 }
+#part3{
+    display: flex;
+    flex-direction: column;
+}
+
 #out{
-    padding-left:1em;
+   
+    width: 60vw;
 }
-#part4,#part3 div
+#part4
 {
-    padding-top: 1em;
+   
+    
+    width: 60vw;
    
 }
 #part4{
-    padding-top: 10px;
+    
    display: flex;
    flex-direction: column; 
-   /* border: 1px solid rebeccapurple; */
-   /* width: 80vw; */
+   
    
    
 }
@@ -35,15 +38,15 @@
 .inner
 {
     display: flex;
-    padding: 5px;
+    /* padding: 5px; */
     justify-content: space-between;
     /* border: 1px solid grey; */
-    width: 70vw;
+    width: 50vw;
 }
 #innersub {
-    padding: 4px;
+   
     display: flex;
-    width: 45vw;
+    width: 35vw;
     justify-content: space-between;
    
     

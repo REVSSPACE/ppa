@@ -6,6 +6,13 @@
 #part1{
     justify-content: space-between;
 }
+#Apart2{
+ /* border: 1px solid saddlebrown; */
+ width: 60vw;
+ display: flex;
+ justify-content: space-between;
+}
+
 #part3{
     display: flex;
 }
@@ -16,6 +23,17 @@
 .Ainner{
     padding: 5px;
     display: flex;
+    width: 60vw;
     justify-content: space-between;
+  
     /* border: 1px solid black; */
+}
+
+.direction{
+    /* border: 1px solid rebeccapurple; */
+    display: flex;
+    width: 30vw;
+    justify-content: space-between;
+    padding-left: 5px;
+    padding-bottom: 10px;
 }

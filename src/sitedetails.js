@@ -51,7 +51,7 @@ export default function SiteDetails()
             <div id="part3">
                 <div>
                     <label for="Landtype">Land Type<span style={{color:"#ff0000"}}>*</span></label><br />
-                            <select id="Landtype" name="Lt" style={{width: "11rem",height:"2em"}}>
+                            <select id="Landtype" name="Lt" style={{width: "11rem",height:"2em"}} >
                                 <option value="salem">salem</option>
                                 <option value="erode">erode </option>
                                 <option value="tiruppur">tiruppur </option>
@@ -113,7 +113,7 @@ export default function SiteDetails()
                 </div>
                     <div id="innersub">
                             <div>
-                            <label for="special">Area of Special Character<span style={{color:"#ff0000"}}>*</span></label><br />
+                                <label for="special">Area of Special Character<span style={{color:"#ff0000"}}>*</span></label><br />
                                 <select id="special" name="sc" style={{width: "11rem",height:"2em"}}>
                                     <option value="salem">salem</option>
                                     <option value="erode">erode </option>
@@ -122,16 +122,17 @@ export default function SiteDetails()
                            </div>
                             
                             <div >
-                    <label>The Extend prior tof 05.08.1975</label><br />
-                        <input type="text" />
-                    </div>
+                            <label>The Extend prior tof 05.08.1975</label><br />
+                                <input type="text" />
+                            </div>
                     
-                </div>
-                </div>
+                    </div>
+
+            </div>
+
                 <div id="nxt" style={{paddingTop:"1em"}}>
-                
-        <input  id="next" type="button" value="Save & Next" />
-        </div>
+                <input  id="next" type="button" value="Save & Next" />
+                </div>
         </div>
     );
 }

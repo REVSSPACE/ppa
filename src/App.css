@@ -22,7 +22,7 @@
  #inside-left{
      display: flex;
      flex-direction: column;
-     height:120vh;
+     height:100;
      background-color: skyblue;
      /* border: 1px solid greenyellow; */
  
@@ -53,4 +53,7 @@
      font-size:medium;
      font-family:'Times New Roman', Times, serif;
  }
- 
+ #inside-right{
+   /* border: 1px solid firebrick; */
+   width: 60vw;
+ }

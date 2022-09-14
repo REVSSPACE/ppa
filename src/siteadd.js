@@ -63,7 +63,7 @@ function SiteAddress()
                     <label>Department</label><br />
                     <input type="text" />
                 </div>
-            </div>
+                </div>
             <br /><br />
             <div id="sec4">
                 <div id="ULB">

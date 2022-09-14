@@ -64,7 +64,7 @@ class App extends Component {
           <div id="inside-left">
           <button id="t1" onClick={toptab1}>Applicant Details</button>
           <button id="t2" onClick={toptab2}>Application Details</button>
-          {/* <button id="t3" onClick={toptab3}>Documents</button> */}
+          <button id="t3"  Disabled>Documents</button>
         </div>
         
         <div id="inside-right">
