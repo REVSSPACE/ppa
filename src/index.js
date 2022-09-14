@@ -21,9 +21,9 @@ root.render(
     
   </div>
  <App />
- <div id="footer" class="layout">
+ {/* <div id="footer" class="layout">
 
- </div>
+ </div> */}
   </React.StrictMode>
 );
 

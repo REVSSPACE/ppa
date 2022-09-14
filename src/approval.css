@@ -1,0 +1,25 @@
+#Asec1{
+    padding: 5px;
+    /* border: 1px solid grey; */
+    width: 70vw;
+}
+#part1{
+    justify-content: space-between;
+}
+#part3{
+    display: flex;
+}
+#part3 >div{
+    padding-right: 7em;
+}
+#Asec2 {
+    /* display: flex; */
+
+    /* border: 1px solid red; */
+}
+.Ainner{
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+}

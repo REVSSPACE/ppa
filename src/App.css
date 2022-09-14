@@ -1,7 +1,7 @@
 #outer{
   display: flex;
   /* border: 3px solid grey; */
-  height: 100vh;
+  height: 100%;
   width: 100vw;
   /* padding-left:15em; */
  }
@@ -22,33 +22,35 @@
  #inside-left{
      display: flex;
      flex-direction: column;
-     height:100%;
+     height:120vh;
      background-color: skyblue;
      /* border: 1px solid greenyellow; */
  
  }
  #right-top button{
     margin: 5px;
-    height: 3em;
-    width: 12em;
-     color: rgb(43, 41, 41);
-     background-color: rgb(37, 194, 121);
+    height: 2em;
+    width: 8em;
+     color: rgb(252, 247, 247);
+     background-color: rgb(138, 170, 218);
      border: none;
-     font-size: large;
+     font-size: medium;
      font-family:'Times New Roman', Times, serif;
+
  }
  #right-top{
     background-color:skyblue;
     
+    
  }
  #inside-left button{
      color: rgb(43, 41, 41);
-     background-color: rgb(72, 132, 221);
+     background-color: rgb(138, 170, 218);
      border: none;
      margin: 3px;
      width: 10em;
      height:3em;
-     font-size:large;
+     font-size:medium;
      font-family:'Times New Roman', Times, serif;
  }
  

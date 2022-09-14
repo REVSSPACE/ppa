@@ -1,0 +1,50 @@
+#part1{
+    display: flex;
+    width: 50vw;
+   
+}
+#part1 div{
+    padding-right: 4em;
+    /* padding-left: 4em; */
+}
+#part2 {
+    display: flex;
+    justify-content: space-between;
+    
+    /* width: 50vw; */
+}
+#out{
+    padding-left:1em;
+}
+#part4,#part3 div
+{
+    padding-top: 1em;
+   
+}
+#part4{
+    padding-top: 10px;
+   display: flex;
+   flex-direction: column; 
+   /* border: 1px solid rebeccapurple; */
+   /* width: 80vw; */
+   
+   
+}
+
+
+.inner
+{
+    display: flex;
+    padding: 5px;
+    justify-content: space-between;
+    /* border: 1px solid grey; */
+    width: 70vw;
+}
+#innersub {
+    padding: 4px;
+    display: flex;
+    width: 45vw;
+    justify-content: space-between;
+   
+    
+}

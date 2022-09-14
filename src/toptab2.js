@@ -1,19 +1,20 @@
 import React from 'react'
 import Professional from './prof';
 import ReactDOM from 'react-dom'
-import ApplicantDetails from './Applicant';
 import SiteAddress from './siteadd';
 // import './toptab2.css';
+import SiteDetails from './sitedetails';
+import ApprovalDetails from './approval';
 
 function Toptab2()
 {
     const siteDetails = () => {
-        ReactDOM.render(<ApplicantDetails />,document.getElementById("display"));
+        ReactDOM.render(<SiteDetails />,document.getElementById("display"));
          
     }
         
       const Approval = () => {
-        ReactDOM.render(<SiteAddress />,document.getElementById("display"));
+        ReactDOM.render(<ApprovalDetails />,document.getElementById("display"));
      }
      const dwg = () => {
         ReactDOM.render(<Professional />,document.getElementById("display"));
