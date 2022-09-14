@@ -1,5 +1,8 @@
 import React from 'react';
 import './Applicant.css';
+import Jsons from './jsonparse';
+import Talukas from './Taluk';
+import Village from './village';
 
 function ApplicantDetails()
 {
@@ -28,32 +31,20 @@ function ApplicantDetails()
         <h4>Address</h4>
         <div id="bottom">
             <div id="sec1">
-                <div id="District">
+                <div id="District" >
                     <label for="District">District<span style={{color:"#ff0000"}}>*</span></label><br />
-                    <select id="District" name="dt" style={{width: "11rem",height:"2em"}}>
-                        <option value="salem">salem</option>
-                        <option value="erode">erode </option>
-                        <option value="tiruppur">tiruppur </option>
-                    </select>  
+                    <Jsons /> 
                 </div>
                 <div id="Taluk">
                     <label for="Taluk">Taluk<span style={{color:"#ff0000"}}>*</span></label><br />
-                    <select id="Taluk" name="tk" style={{width: "11rem",height:"2em"}}>
-                        <option value="tk1">taluk1</option>
-                        <option value="tk2">taluk2 </option>
-                        <option value="tk3">taluk3 </option>
-                    </select>
+                    <Talukas /> 
                 </div>
                 <div id="village/Town/City">
                     <label for="localbodies">village/city/town<span style={{color:"#ff0000"}}>*</span></label><br />
-                    <select id="localbodies" name="lb" style={{width: "11rem",height:"2em"}}>
-                        <option value="lb1">localbodies1</option>
-                        <option value="lb2">localbodies2 </option>
-                        <option value="lb3">localbodies3 </option>
-                    </select>  
+                    <Village />  
                 </div>
             </div>
-            <br /><br />
+            <br />
             <div id="sec2">
                 <div id="Addressline1">
                     <label>AddressLine-1<span style={{color:"#ff0000"}}>*</span></label><br />
@@ -68,7 +59,7 @@ function ApplicantDetails()
                     <input type="text" />
                 </div>
             </div>
-            <br /><br />
+            <br />
             <div id="sec3">
                 <div id="pincode">
                     <label>Pincode<span style={{color:"#ff0000"}}>*</span></label><br />
@@ -83,7 +74,7 @@ function ApplicantDetails()
                     <input type="text" />
                 </div>
             </div>
-            <br /><br />
+            <br />
             <div id="sec4">
                 <div id="email">
                     <label>Email Address<span style={{color:"#ff0000"}}>*</span></label><br />
@@ -95,7 +86,7 @@ function ApplicantDetails()
                 </div>
             </div>
         </div>
-        <br /><br />
+        <br />
         <div id="nxt">
         <input  id="next" type="button" value="Save & Next" />
         </div>

@@ -34,7 +34,7 @@ function SiteAddress()
                     </select>  
                 </div>
             </div>
-            <br /><br />
+            <br />
             <div id="sec2">
                 <div id="Addressline1">
                     <label>AddressLine-1<span style={{color:"#ff0000"}}>*</span></label><br />
@@ -49,7 +49,7 @@ function SiteAddress()
                     <input type="text" />
                 </div>
             </div>
-            <br /><br />
+            <br />
             <div id="sec3">
                 <div id="pincode">
                     <label>Pincode<span style={{color:"#ff0000"}}>*</span></label><br />
@@ -64,7 +64,7 @@ function SiteAddress()
                     <input type="text" />
                 </div>
                 </div>
-            <br /><br />
+            <br />
             <div id="sec4">
                 <div id="ULB">
                     <label>ULB<span style={{color:"#ff0000"}}>*</span></label><br />

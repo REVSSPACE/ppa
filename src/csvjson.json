@@ -1,0 +1,134 @@
+[
+  {
+    "District_Code": "610",
+    "District_Name": "Ariyalur"
+  },
+  {
+    "District_Code": "569",
+    "District_Name": "Coimbatore"
+  },
+  {
+    "District_Code": "570",
+    "District_Name": "Cuddalore"
+  },
+  {
+    "District_Code": "568",
+    "District_Name": "Chennai"
+  },
+  {
+    "District_Code": "572",
+    "District_Name": "Dindigul"
+  },
+  {
+    "District_Code": "DPI",
+    "District_Name": "Dharmapuri"
+  },
+  {
+    "District_Code": "ERD",
+    "District_Name": "Erode"
+  },
+  {
+    "District_Code": "KAR",
+    "District_Name": "Karur"
+  },
+  {
+    "District_Code": "KGI",
+    "District_Name": "Krishnagiri"
+  },
+  {
+    "District_Code": "KKD",
+    "District_Name": "Kanyakumari"
+  },
+  {
+    "District_Code": "KPM",
+    "District_Name": "Kancheepuram"
+  },
+  {
+    "District_Code": "MDU",
+    "District_Name": "Madurai"
+  },
+  {
+    "District_Code": "NGP",
+    "District_Name": "Nagapattinam"
+  },
+  {
+    "District_Code": "NGS",
+    "District_Name": "The Nilgiris"
+  },
+  {
+    "District_Code": "NKL",
+    "District_Name": "Namakkal"
+  },
+  {
+    "District_Code": "OTN",
+    "District_Name": "Outside Tamil Nadu"
+  },
+  {
+    "District_Code": "PDK",
+    "District_Name": "Pudukkottai"
+  },
+  {
+    "District_Code": "PLR",
+    "District_Name": "Perambalur"
+  },
+  {
+    "District_Code": "RMP",
+    "District_Name": "Ramanathapuram"
+  },
+  {
+    "District_Code": "SLM",
+    "District_Name": "Salem"
+  },
+  {
+    "District_Code": "SVG",
+    "District_Name": "Sivaganga"
+  },
+  {
+    "District_Code": "THN",
+    "District_Name": "Theni"
+  },
+  {
+    "District_Code": "TJR",
+    "District_Name": "Thanjavur"
+  },
+  {
+    "District_Code": "TLR",
+    "District_Name": "Tiruvallur"
+  },
+  {
+    "District_Code": "TNV",
+    "District_Name": "Tirunelveli"
+  },
+  {
+    "District_Code": "TPR",
+    "District_Name": "Tiruppur"
+  },
+  {
+    "District_Code": "TRI",
+    "District_Name": "Tiruchirappalli"
+  },
+  {
+    "District_Code": "TRR",
+    "District_Name": "Tiruvarur"
+  },
+  {
+    "District_Code": "TTI",
+    "District_Name": "Thoothukkudi"
+  },
+  {
+    "District_Code": "TVM",
+    "District_Name": "Tiruvannamalai"
+  },
+  {
+    "District_Code": "VLR",
+    "District_Name": "Vellore"
+  },
+  {
+    "District_Code": "VNR",
+    "District_Name": "Virudhunagar"
+  },
+  {
+    "District_Code": "VPM",
+    "District_Name": "Villupuram"
+  }
+]

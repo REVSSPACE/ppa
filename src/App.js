@@ -7,7 +7,7 @@ import Toptab from './toptab';
 import Toptab2 from './toptab2';
 // import Toptab3 from './toptab3';
 // import Coverpage from './cover';
-
+import Jsons from './jsonparse';
 class App extends Component {
   render() {
     const toptab1 = () => {
@@ -72,6 +72,7 @@ class App extends Component {
          
          </div>
         <div id="display">
+       
           
         </div>
       </div> </div>

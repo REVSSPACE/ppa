@@ -1,11 +1,12 @@
-#top ,#bottom #sec1,#sec2,#sec3,#sec4{
+#top {
     display: flex;
     justify-content: space-between;
     color: blue;
 }
+
 #main{
     /* margin-top: 0.5em; */
-    padding: 1em;
+    /* padding: 1em; */
     /* border: 1px solid grey; */
     width: 53vw;
 }
