@@ -1,15 +1,30 @@
 import React from 'react'
-import  JsonData from './csvjson.json'
-// import Subdiv from './subdiv.json'
+// import  JsonData from './csvjson.json'
+import Subdiv from './subdiv.json'
+
 
  export default function Jsons()
  {
+        
+    const uniqueIds = [];
+
+    const Subdivfilter = Subdiv.filter(element => {
+    const isDuplicate = uniqueIds.includes(element.District_Name);
+
+    if (!isDuplicate) {
+        uniqueIds.push(element.District_Name);
+
+        return true;
+    }
     
-       const DisplayData=JsonData.map
+    return false;
+    });  
+
+       const DisplayData=Subdivfilter.map
                 (
                     (i)=>{     
                     return(
-                        <option value={i.District_Code} >{i.District_Name}</option>
+                        <option value={i.District_Name} >{i.District_Name}</option>
 
                             )
                         } 
