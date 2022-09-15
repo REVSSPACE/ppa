@@ -101,21 +101,21 @@ import './District-Taluk-Village.css'
       
                 <div id="dtv">
                     <div>
-                        <label> District</label><br />
+                        <label> District<span style={{color:"#ff0000"}}>*</span></label><br />
                         <select id="sel1"  onChange={handleSelectChangeDt} style={{width: "11rem",height:"2rem"}} >
                         <option value="" disabled selected>Select District</option>
                         {DisplayDataDistrict}
                         </select>
                     </div>
                     <div>
-                        <label> Taluk</label><br />
+                        <label> Taluk<span style={{color:"#ff0000"}}>*</span></label><br />
                         <select id="sel2"  onChange={handleSelectChangeTk} style={{width: "11rem",height:"2rem"}} >
                         <option value="" disabled selected>Select Taluk</option>
                         {DisplayDataTaluk}
                         </select>
                     </div>
                     <div>
-                        <label> Villages</label><br />
+                        <label> Villages<span style={{color:"#ff0000"}}>*</span></label><br />
                         <select id="sel3"  onChange={handleSelectChangeVg} style={{width: "11rem",height:"2rem"}} >
                         <option value="" disabled selected>Select Village</option>
                         {DisplayDataVillage}

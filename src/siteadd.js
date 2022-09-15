@@ -1,6 +1,6 @@
 import React from 'react';
 import './siteadd.css';
-
+import Checking from './District-Taluk-Village';
 function SiteAddress()
 {
     
@@ -9,7 +9,8 @@ function SiteAddress()
         <h4 id="head"> Site Address</h4>
         <div id="bottom">
             <div id="sec1">
-                <div id="District">
+            <Checking />
+                {/* <div id="District">
                     <label for="District">District<span style={{color:"#ff0000"}}>*</span></label><br />
                     <select id="District" name="dt" style={{width: "11rem",height:"2em"}}>
                         <option value="salem">salem</option>
@@ -32,7 +33,7 @@ function SiteAddress()
                         <option value="lb2">localbodies2 </option>
                         <option value="lb3">localbodies3 </option>
                     </select>  
-                </div>
+                </div> */}
             </div>
             <br />
             <div id="sec2">
