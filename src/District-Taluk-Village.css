@@ -1,0 +1,7 @@
+#dtv
+{
+    /* border: 1px solid red; */
+    width: 70vw;
+    display: flex;
+    justify-content: space-between;
+}

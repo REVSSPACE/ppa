@@ -1,8 +1,9 @@
 import React from 'react';
 import './Applicant.css';
-import Jsons from './jsonparse';
-import Talukas from './Taluk';
-import Village from './village';
+import Checking from './District-Taluk-Village';
+// import Jsons from './jsonparse';
+// import Talukas from './Taluk';
+// import Village from './village';
 
 function ApplicantDetails()
 {
@@ -31,7 +32,7 @@ function ApplicantDetails()
         <h4>Address</h4>
         <div id="bottom">
             <div id="sec1">
-                <div id="District" >
+                {/* <div id="District" >
                     <label for="District">District<span style={{color:"#ff0000"}}>*</span></label><br />
                     <Jsons /> 
                 </div>
@@ -42,7 +43,8 @@ function ApplicantDetails()
                 <div id="village/Town/City">
                     <label for="localbodies">village/city/town<span style={{color:"#ff0000"}}>*</span></label><br />
                     <Village />  
-                </div>
+                </div> */}
+                <Checking />
             </div>
             <br />
             <div id="sec2">
