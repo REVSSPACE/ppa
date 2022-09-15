@@ -3,5 +3,5 @@
     display: flex;
     width: 65vw;
     justify-content: space-between;
-    border: 0.1px solid grey;
+    border-bottom: 0.1px solid grey;
 }

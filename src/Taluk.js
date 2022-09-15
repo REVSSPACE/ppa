@@ -1,16 +1,20 @@
 import React from 'react'
-
-
 import Subdiv from './subdiv.json'
+// import Jsons from './jsonparse';
+// import Jsons from './jsonparse';
+// import {$} from 'jquery';
 
- export default function Talukas()
+
+ export default function Talukas() 
  {
-   
+      
+    //   console.log(x);
+        var filterdata = Subdiv.filter(item => item?.District_Name === 'SALEM' )
         const uniqueIds = [];
 
-        const Subdivfilter = Subdiv.filter(element => {
+        const Subdivfilter = filterdata.filter(element => {
         const isDuplicate = uniqueIds.includes(element.Block_Name);
-    
+            
         if (!isDuplicate) {
             uniqueIds.push(element.Block_Name);
     
@@ -31,8 +35,7 @@ import Subdiv from './subdiv.json'
                 } 
                 )
       
-    
-               
+             
     return(
       
            <select style={{width: "11rem",height:"2em"}}>

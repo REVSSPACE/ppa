@@ -13,6 +13,7 @@ root.render(
     <div class="headicon" id="logo">
       <img src={logo} alt="logo" style={{width:"15rem",height:"4rem"}} />
     </div>
+ 
     <div class="headicon" id="user">
       <input id="cnt" type="button" value="30.00"></input>
       <img id="userid" src={usr} alt="upics" />

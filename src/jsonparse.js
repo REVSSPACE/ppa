@@ -1,7 +1,6 @@
 import React from 'react'
-// import  JsonData from './csvjson.json'
 import Subdiv from './subdiv.json'
-
+import  {useState} from "react";
 
  export default function Jsons()
  {
@@ -25,22 +24,36 @@ import Subdiv from './subdiv.json'
                     (i)=>{     
                     return(
                         <option value={i.District_Name} >{i.District_Name}</option>
-
+                        
                             )
                         } 
                 )
-        
- 
+         
 
-    
-    return(
+        const [selected,setSelectedClient] = useState([]);
+
+        
+     
+        function handleSelectChange(event) {
+          
+            console.log("selected:");
+            setSelectedClient(event.target.value);
+                         }
+                 
+                    console.log(selected);
+         
+                return(
       
                 <div>
-                    <select style={{width: "11rem",height:"2em"}}>
+                    <select id="sel1" onChange={handleSelectChange} style={{width: "11rem",height:"2em"}} >
                     {DisplayData}
                     </select>
+                    
                 </div>
         
 
-    )
+    );
  }
+
+
+  

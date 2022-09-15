@@ -7,7 +7,7 @@ import Toptab from './toptab';
 import Toptab2 from './toptab2';
 // import Toptab3 from './toptab3';
 // import Coverpage from './cover';
-import Jsons from './jsonparse';
+// import Jsons from './jsonparse';
 class App extends Component {
   render() {
     const toptab1 = () => {
@@ -39,8 +39,8 @@ class App extends Component {
     return (
       <div id="outer">
           {/* <Coverpage /> */}
-          <div id="list">
-            <ul>
+          <div id="list" >
+            <ul id="ul">
               <li onClick={lay}>Layout Approval
                   <ul  id="laysub" hidden>
                     <li>Layout Application</li>
@@ -69,7 +69,8 @@ class App extends Component {
         
         <div id="inside-right">
         <div id="right-top">
-         
+          
+          
          </div>
         <div id="display">
        

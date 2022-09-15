@@ -24,7 +24,9 @@ export default function Dwg()
                 <input type="text"/>
                  <input type="file" />
                 </div>
-
+                <div id="nxt" style={{paddingTop:"1em"}}>
+                <input  id="next" type="button" value="Save & Next" />
+                </div>
 
         </>
     );
