@@ -3,21 +3,32 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import logo from './logo.jpg';
-import usr from './download.jpg';
+ import logo from './logo.jpg';
+
+import Avatar from '@mui/material/Avatar';
+
+import CountDownTimer from './timer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
   <div id="nav" class="layout">
+  
     <div class="headicon" id="logo">
+
+    
       <img src={logo} alt="logo" style={{width:"15rem",height:"4rem"}} />
     </div>
  
     <div class="headicon" id="user">
-      <input id="cnt" type="button" value="30.00"></input>
-      <img id="userid" src={usr} alt="upics" />
-      <h5>Username</h5>
+    
+      <CountDownTimer />
+    
+      {/* <h5>session timeout: 30: 00 mins</h5> */}
+      
+         <Avatar alt="USER" src="./download.jpg" id="avr" />
+      
+      <p>Username</p>
     </div>
     
   </div>

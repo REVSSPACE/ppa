@@ -32,18 +32,6 @@ function ApplicantDetails()
         <h4>Address</h4>
         <div id="bottom">
             <div id="sec1">
-                {/* <div id="District" >
-                    <label for="District">District<span style={{color:"#ff0000"}}>*</span></label><br />
-                    <Jsons /> 
-                </div>
-                <div id="Taluk">
-                    <label for="Taluk">Taluk<span style={{color:"#ff0000"}}>*</span></label><br />
-                    <Talukas /> 
-                </div>
-                <div id="village/Town/City">
-                    <label for="localbodies">village/city/town<span style={{color:"#ff0000"}}>*</span></label><br />
-                    <Village />  
-                </div> */}
                 <Checking />
             </div>
             <br />

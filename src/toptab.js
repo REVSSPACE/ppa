@@ -1,40 +1,42 @@
-import React from 'react'
-import Professional from './prof';
-import ReactDOM from 'react-dom'
+import * as React from 'react';
+import Box from '@mui/material/Box';
+import Tab from '@mui/material/Tab';
+import TabContext from '@mui/lab/TabContext';
+import TabList from '@mui/lab/TabList';
+import TabPanel from '@mui/lab/TabPanel';
 import ApplicantDetails from './Applicant';
+import Professional from './prof';
 import SiteAddress from './siteadd';
-import './toptab.css';
 
-function Toptab()
-{
-    const ApplicantClick = () => {
-        ReactDOM.render(<ApplicantDetails />,document.getElementById("display"));
-         
-    }
+export default function ApplicantTab() {
+  const [value, setValue] = React.useState('1');
+
+  const handleChange = (event, newValue) => {
+    setValue(newValue);
+  };
+
+  return (
+    <Box sx={{ width: '100%', typography: 'body1' }}>
+      <TabContext value={value}>
+        <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
+          <TabList onChange={handleChange} aria-label="lab API tabs example">
+            <Tab label="Applicant" value="1" />
+            <Tab label="Site Address" value="2" />
+            <Tab label="Professional" value="3" />
+           
+          </TabList>
+        </Box>
+        <TabPanel value="1">
+        <ApplicantDetails />
+        </TabPanel>
+        <TabPanel value="2">
+        <SiteAddress />
+        </TabPanel>
+        <TabPanel value="3">
+        <Professional />
+        </TabPanel>
         
-      const SiteClick = () => {
-        ReactDOM.render(<SiteAddress />,document.getElementById("display"));
-     }
-     const ProfClick = () => {
-        ReactDOM.render(<Professional />,document.getElementById("display"));
-     }
-
-    
-     
-    return(
-        <>
-        
-        <button id="ut1" onClick={ApplicantClick}>Applicant</button> 
-        <button id="ut2" onClick={SiteClick} >Site Address</button>
-        <button id="ut3" onClick={ProfClick} >Professional</button>
-        </>
-    );
-
+      </TabContext>
+    </Box>
+  );
 }
-
-
-
-    
-
-
-export default Toptab;
