@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
- import logo from './logo.jpg';
+ import logo from './tnlogo.png';
 
 import Avatar from '@mui/material/Avatar';
 
@@ -17,9 +17,11 @@ root.render(
     <div class="headicon" id="logo">
 
     
-      <img src={logo} alt="logo" style={{width:"15rem",height:"4rem"}} />
+      <img src={logo} alt="logo" style={{width:"15rem",height:"3rem"}} />
+      
+
     </div>
- 
+    <h3 id="heading">Tamil Nadu - Online Single Window Portal</h3>
     <div class="headicon" id="user">
     
       <CountDownTimer />
